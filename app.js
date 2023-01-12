@@ -11,7 +11,7 @@ const randomQuotes = [
     'dummy2'
 ]
 let index = 0;
-let maxLength = 7;
+let maxLength = 6;
 button.addEventListener('click', () => {
     quote.innerHTML = randomQuotes[index];
     index++;
